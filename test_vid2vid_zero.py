@@ -38,8 +38,8 @@ from vid2vid_zero.p2p.null_text_w_ptp import NullInversion
 # Will error if the minimal version of diffusers is not installed. Remove at your own risks.
 check_min_version("0.10.0.dev0")
 
-logger = get_logger(__name__, log_level="INFO")
-
+# logger = get_logger(__name__, log_level="INFO")
+logger = get_logger(__name__)
 
 def prepare_control(unet, prompts, validation_data):
     assert len(prompts) == 2
