@@ -1,4 +1,4 @@
-pretrained_model_path: checkpoints/stable-diffusion-v1-4
+pretrained_model_path: /kaggle/input/stable-diffusion-v14/stable-diffusion-v1-4
 output_dir: outputs/car-moving
 input_data:
   video_path: data/car-moving.mp4
